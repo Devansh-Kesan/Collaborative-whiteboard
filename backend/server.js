@@ -7,7 +7,7 @@ const { Server } = require("socket.io");
 const http = require("http");
 const Canvas = require("./models/canvasModel");
 const jwt = require("jsonwebtoken");
-const SECRET_KEY = "your_secret_key";
+const SECRET_KEY = "my_secret_key";
 
 
 const userRoutes = require("./routes/userRoutes");
